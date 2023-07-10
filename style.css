@@ -272,7 +272,7 @@ background: #FFF;
 width: 170.106px;
 height: 64px;
 flex-shrink: 0;
-margin-top: 0px;
+margin-top: 10px;
 margin-left: 1046px;
 margin-bottom: 242px;
 margin-right: 383px;
@@ -292,8 +292,9 @@ height: 54px;
 flex-shrink: 0;
 border-radius: 8px;
 border: 1px solid #FFF;
-padding-left: 10px;
+
 margin-left: 1046px;
-margin-top: 10px;
+margin-top: 31px;
+margin-bottom: 16px;
 
 }
