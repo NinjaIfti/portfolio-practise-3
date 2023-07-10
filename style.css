@@ -31,7 +31,7 @@
     background: #F15B22;
     color: white;
     font-family: Work Sans;
-    font-size: 26px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     width: 160px;
@@ -95,6 +95,10 @@
 .lists {
     padding-bottom: 12px;
 }
+.plans-section{
+    background-color: white;
+    height: 100vh;
+}
 
 .my-plans {
     padding-top: 100px;
@@ -131,8 +135,57 @@
     font-weight: 500;
     line-height: normal;
 }
-.plans-logo{
+
+.plans-logo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.plans-banner {
+   
+    border-radius: 0px;
+    background-image: url(./images/watch.png);
+    
+    border-radius: none;
+    width: 1140px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.plans-banner-title
+{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.btn-2{
+    border: none;
+    background: #ffffff;
+    color: orange;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.btn-2:hover {
+    color: black;
+}
+
+.plans-banner-title{
+    padding-left: 100px;
+    padding-top: 55px;
 }
